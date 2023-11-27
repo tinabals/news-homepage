@@ -1,12 +1,14 @@
 import './App.css';
 import {NavBar} from './components/NavBar';
-import {Hero} from './components/Hero';
+import {Main} from './components/Main';
+import {Footer} from './components/Footer';
 
 function App() {
   return (
     <div className='container px-2 md:px-6 mx-auto'>
       <NavBar />
-      <Hero />
+      <Main />
+      <Footer />
     </div>
   );
 }

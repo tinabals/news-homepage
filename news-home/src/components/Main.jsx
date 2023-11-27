@@ -1,8 +1,8 @@
-import {News} from './News';
+import {SideBar} from './SideBar';
 
 import HeroImage from '../assets/images/image-web-3-desktop.jpg';
 
-export const Hero = () => {
+export const Main = () => {
   return (
     <div className='flex flex-col space-y-4 md:space-x-8 md:flex-row'>
       <div className='md:w-3/4'>
@@ -32,7 +32,7 @@ export const Hero = () => {
         </div>
       </div>
       <div className='md:w-1/4'>
-        <News />
+        <SideBar />
       </div>
     </div>
   );

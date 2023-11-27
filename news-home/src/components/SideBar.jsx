@@ -1,4 +1,4 @@
-export const News = () => {
+export const SideBar = () => {
   return (
     <div className='flex flex-col bg-[#00001A] px-4 py-6'>
       <div className='flex flex-col space-y-6 py-4'>

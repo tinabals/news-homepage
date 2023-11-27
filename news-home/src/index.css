@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Inter;
+  src: url('./assets/fonts/font.ttf') format('truetype'),
+    url('./assets//fonts/static/Inter-Bold.ttf') format('truetype'),
+    url('./assets//fonts/static/Inter-ExtraBold.ttf') format('truetype'),
+    url('./assets//fonts/static/Inter-Regular.ttf') format('truetype');
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
